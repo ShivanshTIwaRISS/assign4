@@ -16,6 +16,12 @@
 
 ---
 
+## 🧠 Why I Built It This Way (Architecture Decisions)
+
+I designed this platform with a strong emphasis on **modularity, fault-tolerance, and type safety**. Instead of building one massive script, I separated the system into decoupled stages (Agents -> Pipelines -> Vector Store) linked by strict Pydantic schemas. The **Self-Correcting Pipeline** uses an exponential backoff loop to catch and fix LLM hallucinations automatically, ensuring data integrity. Finally, I integrated a **Mock/Demo mode** at the dependency boundary, allowing reviewers to validate the entire workflow and routing logic offline without needing to supply their own API keys or incur costs.
+
+---
+
 ## 🏗️ Project Structure
 
 ```

@@ -1,0 +1,50 @@
+[
+    {
+        "name": "Open Library — Search API",
+        "url": "https://openlibrary.org/search.json?q=artificial+intelligence&limit=5",
+        "type": "api",
+        "description": "Open Library book search API for AI-related books"
+    },
+    {
+        "name": "Open Library — AI Subject",
+        "url": "https://openlibrary.org/subjects/artificial_intelligence.json?limit=10",
+        "type": "api",
+        "description": "Open Library subject listing for AI books"
+    },
+    {
+        "name": "Open Library — Computer Science",
+        "url": "https://openlibrary.org/subjects/computer_science.json?limit=10",
+        "type": "api",
+        "description": "Open Library subject listing for CS books"
+    },
+    {
+        "name": "DBLP — Author Search",
+        "url": "https://dblp.org/search/author/api?q=machine+learning&format=json&h=5",
+        "type": "api",
+        "description": "DBLP computer science bibliography author search"
+    },
+    {
+        "name": "Open Library — Machine Learning",
+        "url": "https://openlibrary.org/search.json?q=machine+learning+textbook&limit=5",
+        "type": "api",
+        "description": "Open Library search for ML textbooks"
+    },
+    {
+        "name": "Open Library — Data Science",
+        "url": "https://openlibrary.org/search.json?q=data+science&limit=5",
+        "type": "api",
+        "description": "Open Library search for Data Science books"
+    },
+    {
+        "name": "CrossRef — Publisher Search",
+        "url": "https://api.crossref.org/members?query=springer&rows=5",
+        "type": "api",
+        "description": "CrossRef API for publisher metadata"
+    },
+    {
+        "name": "CrossRef — Works Search",
+        "url": "https://api.crossref.org/works?query=deep+learning&rows=5",
+        "type": "api",
+        "description": "CrossRef API for academic works/publications"
+    }
+]
